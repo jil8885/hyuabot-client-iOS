@@ -6,3 +6,22 @@ hyuabot/Assets.xcassets/.DS_Store
 .DS_Store
 
 hyuabot.xcodeproj/project.xcworkspace/xcuserdata/jil8885.xcuserdatad/UserInterfaceState.xcuserstate
+
+Pods/
+
+### Xcode ###
+## User settings
+xcuserdata/
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
