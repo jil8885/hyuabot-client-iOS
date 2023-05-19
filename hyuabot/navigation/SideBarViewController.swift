@@ -23,19 +23,6 @@ class SideBarViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let header = UILabel()
-        header.frame = CGRect(x: 20, y: 30, width: self.view.frame.width, height: 30)
-        header.text = "전체 메뉴"
-        header.textColor = UIColor.white
-        header.font = UIFont.boldSystemFont(ofSize: 18)
-        
-        let view = UIView()
-        view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 70)
-        view.backgroundColor = UIColor(hexCode: "0E4A84")
-        view.addSubview(header)
-        
-        self.tableView.tableHeaderView = view
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection: Int) -> Int {
