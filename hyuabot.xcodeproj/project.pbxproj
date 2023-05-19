@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C76773052A1342E800B3386E /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76773042A1342E800B3386E /* SideBarViewController.swift */; };
+		C76773082A1349CC00B3386E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76773072A1349CC00B3386E /* UIColor.swift */; };
+		C767730B2A134C0500B3386E /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C767730A2A134C0500B3386E /* RevealViewController.swift */; };
+		C791606D2A175A6A00056866 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C791606C2A175A6A00056866 /* FrontViewController.swift */; };
 		C7CC91ED2A0C85D1004B0961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7CC91EF2A0C85D1004B0961 /* InfoPlist.strings */; };
 		C7E07CC72A0A2F24004EBF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E07CC62A0A2F24004EBF44 /* AppDelegate.swift */; };
 		C7E07CC92A0A2F24004EBF44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E07CC82A0A2F24004EBF44 /* SceneDelegate.swift */; };
-		C7E07CCB2A0A2F24004EBF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E07CCA2A0A2F24004EBF44 /* ViewController.swift */; };
 		C7E07CCE2A0A2F24004EBF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E07CCC2A0A2F24004EBF44 /* Main.storyboard */; };
 		C7E07CD02A0A2F24004EBF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E07CCF2A0A2F24004EBF44 /* Assets.xcassets */; };
 		C7E07CD32A0A2F24004EBF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E07CD12A0A2F24004EBF44 /* LaunchScreen.storyboard */; };
@@ -37,13 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C76773042A1342E800B3386E /* SideBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
+		C76773072A1349CC00B3386E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C767730A2A134C0500B3386E /* RevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
+		C791606C2A175A6A00056866 /* FrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
 		C7CC91E32A0C7AAC004B0961 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		C7CC91EE2A0C85D1004B0961 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7CC91F02A0C85D6004B0961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7E07CC32A0A2F24004EBF44 /* hyuabot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyuabot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E07CC62A0A2F24004EBF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E07CC82A0A2F24004EBF44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7E07CCA2A0A2F24004EBF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7E07CCD2A0A2F24004EBF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7E07CCF2A0A2F24004EBF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E07CD22A0A2F24004EBF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C76773062A1349AA00B3386E /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				C76773072A1349CC00B3386E /* UIColor.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		C76773092A134BD700B3386E /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C76773042A1342E800B3386E /* SideBarViewController.swift */,
+				C767730A2A134C0500B3386E /* RevealViewController.swift */,
+				C791606C2A175A6A00056866 /* FrontViewController.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
 		C7E07CBA2A0A2F24004EBF44 = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +127,10 @@
 		C7E07CC52A0A2F24004EBF44 /* hyuabot */ = {
 			isa = PBXGroup;
 			children = (
+				C76773092A134BD700B3386E /* navigation */,
+				C76773062A1349AA00B3386E /* utility */,
 				C7E07CC62A0A2F24004EBF44 /* AppDelegate.swift */,
 				C7E07CC82A0A2F24004EBF44 /* SceneDelegate.swift */,
-				C7E07CCA2A0A2F24004EBF44 /* ViewController.swift */,
 				C7E07CCC2A0A2F24004EBF44 /* Main.storyboard */,
 				C7E07CCF2A0A2F24004EBF44 /* Assets.xcassets */,
 				C7E07CD12A0A2F24004EBF44 /* LaunchScreen.storyboard */,
@@ -265,9 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E07CCB2A0A2F24004EBF44 /* ViewController.swift in Sources */,
+				C791606D2A175A6A00056866 /* FrontViewController.swift in Sources */,
+				C767730B2A134C0500B3386E /* RevealViewController.swift in Sources */,
 				C7E07CC72A0A2F24004EBF44 /* AppDelegate.swift in Sources */,
 				C7E07CC92A0A2F24004EBF44 /* SceneDelegate.swift in Sources */,
+				C76773052A1342E800B3386E /* SideBarViewController.swift in Sources */,
+				C76773082A1349CC00B3386E /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
